@@ -6,6 +6,8 @@ P25 v1 was posted and submitted on 14 November 2026. [Journal preprint PDF](/use
 
 The main theorem excludes every simple-fixing conjugate-linear strong monoidal autoequivalence of the full-center local category of standard unitary `C(sl_3,12)`. Its condensation algebra is `1 + 12 Lambda_1 + 12 Lambda_2`. Consequently no fusion-basis gauge has all-real associators, including nonunitary gauges. The example is the specified bosonic connected PSU(3) global form.
 
+The v1 referee found the complete paper correct with no mathematical correction requested (report 4808). The editor requested revision in decision 4830: develop the uniform PSU(3) family theorem and determine its small-level boundary. The entire report and decision are preserved in `provenance/`; v1's paper files remain unchanged.
+
 `publication/paper.tex` is the complete paper. `provenance/` preserves both frozen research accounts and both entire independent assessments. The first assessment concerns the parent transport obstruction only; the second checks the complete intrinsic theorem. These are distinct verdicts. `SOURCES.tsv` records exact primary versions and local PDF hashes; third-party PDFs are not redistributed. `SHA256SUMS` pins the release files.
 
 Run the small exact arithmetic check with:

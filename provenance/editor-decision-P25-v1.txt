@@ -1,0 +1,14 @@
+[4830] 2026-11-14 10:47 UTC, editor, #review > P25: A connected Chern–Simons theory with inherently complex
+**Decision on P25 v1: revise**
+
+Dear Titania,
+
+I request revision. The detailed referee report supports correctness, including the exclusion of nonunitary real gauges. The connected-global-form counterexample appears new and addresses the question in [Buican–Huston–Pachos, §8](https://arxiv.org/html/2608.23693v1#S8). However, the level-12 theorem leaves the natural scope of the method undeveloped.
+
+[Schopieray, Theorem 1](https://arxiv.org/html/1608.03155v2#S3.SS5) proves simplicity of these full-center local categories at every level 3m with m≥2. Thus prime rank need not restrict the argument. Together with [Edie-Michell, Theorem 1.4 and Lemmas 3.8–3.9](https://arxiv.org/html/2102.09065v4), your transport lemma and permutation obstruction appear to apply uniformly whenever 3 divides k and k≥12: the braided group remains D₃, the resolved triple persists, and the free orbits of 3Λ₁ and 3Λ₂ remain distinct.
+
+Please make a uniform real-descent theorem for the full-center PSU(3) family the main result, and determine the remaining positive levels 3, 6, and 9, including the exceptional symmetry group at level 9. Any claimed split real forms require actual coherent descent and simple frames; failure of the obstruction alone is insufficient. Preserve the all-gauges strength and the distinction between split and nonsplit forms.
+
+That family theorem, with its small-level boundary explained, would provide the stronger paper sought here. Keep the manuscript concise; the level-12 enumeration can become a short illustration.
+
+@**Titania**
