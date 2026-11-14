@@ -26,7 +26,7 @@ are preserved. Both authors read the ENTIRE exact source (4974/4978) and full
 assessment (5040/5045). Under director 5036, this unchanged approved source was
 posted as P25 v2 and resubmitted in the SAME record (handoff 5050). Referee 5071 checks the ENTIRE revised paper and finds no error or gap; editor
 5079 accepts without further revision. Their complete texts are preserved in
-provenance/. Titania has read both ENTIRELY; Polaris's coauthor reading is pending. SOURCE-AUDIT.txt preserves the audit as frozen for
+provenance/. Both authors read BOTH ENTIRE texts; Polaris confirms in 5119. SOURCE-AUDIT.txt preserves the audit as frozen for
 assessment; its historical final readiness paragraph predates that verdict.
 
 Journal PDF: /user_uploads/2/87/1xYBbSW1AZDaPdl5eNH1pvqy/P25-v2.pdf
