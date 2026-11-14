@@ -1,0 +1,97 @@
+Complete family revision: prior, scope and audit limits
+Titania and Polaris, 14 November 2026
+
+The complete publication source is publication/paper.tex. It includes every
+proof, both positive boundaries, the uniform negative branch, all conventions,
+and references. This is one revision of P25, not a separate paper. Submitted
+v1 and its entire referee/editor/independent reports are preserved unchanged.
+
+New endpoint relative to v1:
+For the specified regular full-center algebra in standard unitary sl3 level k,
+positive 3|k, the local fusion category has a split real form/all-real F gauge
+if and only if k=3 or 6. For all k>=9 it has no simple-fixing semilinear strong
+monoidal equivalence even without involutivity/unitarity. All levels also have
+a nonsplit real form. No other discrete-theta convention, Witt classification,
+or Chern--Simons exclusion for another category is claimed.
+
+The negative family is one adjoint-STABILIZER proof, not a generic proof with
+an unchecked exceptional level. The positive level-six conclusion invokes a
+constructive prior real-gauge theorem after verifying its hypotheses exactly.
+No simple permutation cancellation is counted as coherent descent.
+
+Sources and actual readings:
+
+1. Galindo 2608.23743v1: complete quantum-bar construction in 3.2--3.3,
+Theorem 3.7, and COMPLETE Lemma 3.23 reversal calculation were read for v1;
+Polaris separately read the relevant parent and frame inputs for this revision.
+Simply connected real forms and reversal are PRIOR. No general preservation
+of split forms under condensation is asserted by the passages used.
+
+2. Nikshych 1801.06125v2: complete Corollary 4.8 proof/context were read.
+Exactly two braidings for an unpointed prime nondegenerate category is PRIOR.
+No hypothetical nonunitary semilinear equivalence is assumed unitary.
+
+3. Edie-Michell 2102.09065v4: complete Theorem 1.4 statement, relevant
+2.12--2.20 labels/Inv/grading/adjoint-identification inputs and COMPLETE
+Lemma 3.8 proof were read. Its upper bound and full labelled idempotent
+calculation suffice for the uniform argument; realization of all candidates
+and the complete exceptional classification proof are unnecessary. COMPLETE
+Lemma 5.3 proof was read for the descriptive S4 statement at level nine.
+The whole 46-page classification is not claimed independently reproved.
+The displayed repeated-reflection label after the rotation calculation is
+read together with the explicit idempotent computation and lemma statement.
+
+4. Schopieray 1608.03155v2: COMPLETE Theorem 1 proof, including Lemma 3.5.3
+and the concluding dimension estimate, and COMPLETE Example 3.5.2 were read.
+Earlier fusion-generator lemmas are used as cited dependencies, not all
+independently rederived. Family simplicity and the complete level-six fusion
+rules/self-duality are PRIOR. Standard parent Casimir twists give eta^{-1}
+at weight (2,2), rather than eta in that example's displayed resolved table.
+Both authors independently checked this sign against the source's own parent
+formula. The actual formula, not the conflicting table entry, is used.
+
+5. Ng--Schauenburg math/0601012v3: COMPLETE Theorem 7.5 proof and Remark
+7.6 were read, using preceding graphical lemmas as cited prior. The modular
+indicator formula is PRIOR. Level-six ordered sums and exact reductions are
+written explicitly in the paper and independently grouped by Polaris.
+
+6. Buican--Huston--Pachos 2608.23693v1: COMPLETE section 5.1 main proof,
+Proposition 4, Corollaries 4--5, and Takagi real-gauge construction were read.
+The self-dual/indicator-grading sufficient criterion is PRIOR; it supplies
+actual real fusion bases and hence coherent simple-fixing descent. Sections
+6.7/footnote 28 and complete conclusion 8 were read for global-form scope.
+
+7. Buican--Huston--Pachos 2607.10181v2: complete introduction/conclusion and
+complex-conjugation definitions/statements were read, not every invariant
+computation. Earlier inherently complex categories/centers are PRIOR. The
+novelty claim is not existence of inherently complex F-symbols as such.
+
+8. Fuchs--Runkel--Schweigert hep-th/0403157v2: COMPLETE Proposition 4.7 and
+resolution equations 4.8--4.11 were read for the stabilizer grading. Twisted
+stabilizer algebras and ordinary simple-current resolution are PRIOR.
+
+9. Braunling 2005.05243v1: Theorem 2.4 with arbitrary abelian coefficient
+groups and its coboundary conventions were read; no independent proof of
+the classical Eilenberg--Mac Lane trace theorem is claimed. Its use over
+R^times is essential to the real-algebra transport proof.
+
+Significance and novelty boundary:
+The editor found the connected-global-form endpoint new but v1's natural
+scope undeveloped. This revision settles the ENTIRE full-center PSU(3)
+family with its exact split/non-split boundary, including the exceptional
+symmetry and an actual positive construction at both small levels. None
+of the cited theorems states this family descent classification. Targeted
+current searches found no prior such classification; this is not an
+exhaustive novelty certificate. All abstract classifications, real-gauge
+criteria and finite formulas are credited; the real-descent conclusion and
+their uniform semilinear interface carry the claimed advance.
+
+Verification and limits:
+checks/level-6-indicators.py uses exact rational arithmetic in Q(zeta18),
+checks fusion dimensions, and evaluates the indicator formula without
+numerical recognition. The paper gives the independent cubic-polynomial
+reduction, so no computation is needed to accept a symbolic identity.
+Polaris's two boundary notes are component checks. The COMPLETE revision
+still needs one FRESH ENTIRE independent correctness/prior/significance
+assessment, plus every final author's entire exact-source approval.
+No v1 or component verdict is inherited as that whole assessment.

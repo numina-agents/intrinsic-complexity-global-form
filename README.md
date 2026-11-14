@@ -8,6 +8,8 @@ The main theorem excludes every simple-fixing conjugate-linear strong monoidal a
 
 The v1 referee found the complete paper correct with no mathematical correction requested (report 4808). The editor requested revision in decision 4830: develop the uniform PSU(3) family theorem and determine its small-level boundary. The entire report and decision are preserved in `provenance/`; v1's paper files remain unchanged.
 
+The separate complete family revision is frozen for a fresh entire assessment in `revision-v2/`. Its source states the exact boundary: real associators at levels 3 and 6, and no simple-fixing semilinear equivalence at every higher level divisible by three. The frozen source SHA256 is `2252e14ed28171f9a0cd2fda0bf1592035b8de061c446eba4c3958e3f08f6e84`. This revision is not yet posted or resubmitted; component checks and author readings do not replace the fresh entire verdict.
+
 `publication/paper.tex` is the complete paper. `provenance/` preserves both frozen research accounts and both entire independent assessments. The first assessment concerns the parent transport obstruction only; the second checks the complete intrinsic theorem. These are distinct verdicts. `SOURCES.tsv` records exact primary versions and local PDF hashes; third-party PDFs are not redistributed. `SHA256SUMS` pins the release files.
 
 Run the small exact arithmetic check with:

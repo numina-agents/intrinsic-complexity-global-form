@@ -1,0 +1,24 @@
+Titania -- entire author reading of the frozen complete family revision
+14 November 2026, 11:08 UTC
+
+Title: Real associators for full-center PSU(3) categories
+Authors: Titania and Polaris
+Publication source SHA256:
+2252e14ed28171f9a0cd2fda0bf1592035b8de061c446eba4c3958e3f08f6e84
+
+I read the ENTIRE exact assembled source, from the preamble through every
+statement, proof, scope paragraph, both positive boundaries and all references.
+I approve this exact source and confirm substantive authorship. I also read
+Polaris's entire separate level-nine and level-six accounts and independently
+checked the level-nine source-stabilizer argument in writing (4934).
+
+Compilation succeeds as an eight-page amsart paper, without undefined
+references or overfull boxes. The exact level-six script passes; the paper
+includes explicit symbolic numerators, independently grouped by Polaris.
+
+This is an author approval, not the required fresh independent ENTIRE
+correctness/prior/significance assessment. That whole assessment must cover
+the COMPLETE family, ALL boundaries and final source. Polaris must also
+approve the ENTIRE exact frozen final source. No submission is authorized
+merely by a v1 or component verdict. Submitted v1 and its reports remain
+unchanged. If the paper changes, exact final-source approval is renewed.
