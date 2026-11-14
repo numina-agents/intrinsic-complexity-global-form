@@ -1,0 +1,403 @@
+\documentclass[11pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{1em}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\B}{\mathcal B}
+\newcommand{\D}{\mathcal D}
+\newcommand{\A}{\mathcal A}
+\newcommand{\Irr}{\operatorname{Irr}}
+\newcommand{\Inv}{\operatorname{Inv}}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\rev}{\mathrm{rev}}
+\newcommand{\Br}{\mathrm{br}}
+\newcommand{\slthree}{\mathfrak{sl}_3}
+\title[Inherently complex associators]{A connected Chern--Simons theory with inherently complex associators}
+\author{Titania}
+\date{November 14, 2026}
+\subjclass[2020]{18M20, 81T45}
+\keywords{Modular tensor category, real form, associator, simple-current condensation, Chern--Simons theory}
+\begin{document}
+\begin{abstract}
+The full bosonic center gauging of the standard unitary $SU(3)_{12}$
+category has no gauge with real associator matrices, even under nonunitary
+changes of fusion bases. Thus real associators are not a general property
+of connected Chern--Simons global forms. We prove a permutation obstruction:
+when a fusion category has a unique pivotal structure, only two braidings,
+and a nonreal simple twist, a simple-fixing semilinear tensor equivalence
+must reverse braiding. Comparing it with a descended quantum bar produces
+a permutation excluded by the known labelled braided automorphism group.
+The example has rank $13$; the proof uses existing classifications of
+braidings and of type-A local-module symmetries and requires no explicit
+associator computation.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+Whether an anyon theory admits real $F$-symbols is a question about its
+underlying fusion category, rather than about the reality of its braiding
+or modular data. Buican--Huston--Pachos constructed braided categories
+with inherently complex associators \cite{BHPcomplex,BHPreal}. Their
+real-gauge theorem uses flat braided charge conjugation, and they ask
+whether real $F$-symbols are a general property of Chern--Simons theories
+\cite[Section~8]{BHPreal}. Galindo proves split real forms for the standard
+simply connected quantum categories, including their cyclotomic Galois
+conjugates \cite[Theorem~3.7]{Galindo}. These positive results do not assert
+preservation under central-line condensation. Such condensation is the
+operation relevant to non-simply-connected global forms; see also
+\cite[Section~6.7, footnote~28]{BHPreal}.
+
+Let $\mathcal C=\mathcal C(\slthree,12)$ be the standard unitary quantum
+category, and write $\Lambda_1,\Lambda_2$ for the fundamental weights.
+The invertible simple $J=12\Lambda_1$ has order three and twist one.
+Its powers generate a Tannakian subcategory. We take its regular algebra
+\begin{equation}\label{eq:A}
+ A=\mathbf1\oplus J\oplus J^2
+   =\mathbf1\oplus12\Lambda_1\oplus12\Lambda_2,
+ \qquad \D=\mathcal C_A^0,
+\end{equation}
+where the superscript denotes local modules. This specifies the full
+bosonic center gauging of $SU(3)_{12}$, hence the connected $PSU(3)$
+global form used throughout. We make no classification assertion about
+other discrete-theta conventions.
+
+\begin{theorem}\label{thm:main}
+The complex fusion category $\D$ in \eqref{eq:A} admits no simple-fixing
+conjugate-linear strong monoidal autoequivalence.
+Consequently it has no split real fusion form and no gauge with all
+$F$-matrices real, even allowing nonunitary changes of fusion bases.
+\end{theorem}
+
+The theorem excludes every simple-fixing semilinear equivalence, without
+assuming coherent square identity, unitarity, or induction from a parent.
+The category nevertheless has a nonsplit real form. The distinction is
+essential: the descended parent bar permutes two fixed-point resolutions,
+and failure of that particular construction alone would not prove the
+theorem.
+
+Our obstruction is stated in Section~\ref{sec:criterion}. Its application
+combines Nikshych's classification of all braidings on unpointed
+nondegenerate categories \cite[Corollary~4.8]{Nikshych}, Edie-Michell's
+classification and labelled action of braided autoequivalences of type-A
+local categories \cite{Edie}, and Galindo's reverse-braided quantum bar
+\cite[Lemma~3.23]{Galindo}. Those classifications and the parent real
+structure are prior results. The new conclusion is their all-gauges
+obstruction for the actual connected global form \eqref{eq:A}. It is
+neither an obstruction to every real form nor a Witt invariant.
+
+\section{A semilinear permutation obstruction}\label{sec:criterion}
+
+For a braiding $c$ write
+$c^{\rev}_{X,Y}=(c_{Y,X})^{-1}$.
+A conjugate-linear tensor autoequivalence acts on scalars by complex
+conjugation; its tensorator is taken in the convention
+\[
+ K_2(X,Y):KX\otimes KY\longrightarrow K(X\otimes Y).
+\]
+We call it reverse-braided if it transports $c$ to $c^{\rev}$, with this
+tensorator understood. For any tensor autoequivalence $F$, let $\pi(F)$
+be its permutation of $\Irr(\B)$. Let
+\[
+ P_{\Br}(\B,c)\subseteq\operatorname{Sym}(\Irr(\B))
+\]
+be the permutation image of the \emph{complex-linear} braided tensor
+autoequivalence group.
+
+\begin{proposition}\label{prop:criterion}
+Let $(\B,c,p)$ be a complex braided fusion category with spherical pivotal
+structure $p$. Suppose that:
+\begin{enumerate}
+\item $p$ is its unique pivotal structure, under the canonical duality
+comparisons;
+\item the only braidings on its fixed underlying tensor category are
+$c$ and $c^{\rev}$;
+\item a simple object has nonreal twist for $(c,p)$;
+\item there is a conjugate-linear reverse-braided tensor autoequivalence
+$T$ with $\pi(T)\notin P_{\Br}(\B,c)$.
+\end{enumerate}
+Then $\B$ admits no simple-fixing conjugate-linear strong monoidal
+autoequivalence, and hence no split real fusion form or all-real
+associator gauge.
+\end{proposition}
+
+\begin{proof}
+Suppose $K$ were such a simple-fixing equivalence. Transport of braiding
+defines a braiding $c^K$ on the same underlying tensor category, given on
+the essentially surjective image of $K$ by
+\begin{equation}\label{eq:transportbraid}
+ c^K_{KX,KY}=K_2(Y,X)^{-1}K(c_{X,Y})K_2(X,Y).
+\end{equation}
+The hexagons transport through the tensor equivalence. Transport of
+duality and $p$ similarly gives a pivotal structure $p^K$, which equals
+$p$ by uniqueness. The twist, being a functorial expression in these
+structures, therefore satisfies
+\begin{equation}\label{eq:twist}
+ \theta^{(c^K,p)}_{KX}=K(\theta^{(c,p)}_X).
+\end{equation}
+For simple $X$ the scalar on the right is $\overline{\theta_X}$.
+If $c^K=c$, simple-fixing and \eqref{eq:twist} would make every simple
+twist real. Thus $c^K=c^{\rev}$.
+
+Both $K$ and $T$ reverse braiding, so $KT$ is complex-linear and braided:
+transport commutes with taking reverse, and
+$K(c^{\rev})=(c^K)^{\rev}=c$, with tensorators inserted.
+But $\pi(KT)=\pi(T)$, contrary to the last hypothesis.
+
+A split real form provides a coherent simple-fixing conjugate-linear
+involution after scalar extension. An all-real $F$-gauge provides the same
+functor on a simple-labelled skeleton by conjugating coefficients in
+the chosen fusion bases. Neither implication requires real pivotal or
+evaluation matrices in those bases. Both contradict what was just
+proved.
+\end{proof}
+
+Two useful sufficient conditions are already available. If a
+nondegenerate braided category is unpointed and prime, Nikshych's
+Corollary~4.8 gives exactly the two braidings in the proposition. If the
+universal grading group is trivial, a pivotal structure, when it exists,
+is unique: the ratio of two pivotal structures is a monoidal natural
+automorphism of the identity, whose simple scalars factor through that
+group. In particular, no positivity assumption on a hypothetical $K$
+is needed.
+
+\section{Transport and resolved simple objects}\label{sec:transport}
+
+We give the transport argument used below, including its real-algebra
+and local-braiding assertions. A split real datum will mean a coherent
+conjugate-linear tensor involution $\Phi$, with comparison
+$\mu:\Phi^2\Rightarrow\mathrm{Id}$, admitting coherent real frames on
+every simple.
+
+\begin{lemma}\label{lem:transport}
+Let $\mathcal C$ be a unitary braided fusion category with a split real
+datum $\Phi$ reversing braiding. If $H$ is an isotropic subgroup of
+invertibles, its regular algebra $A_H$ admits a coherent real algebra
+datum, and $\Phi$ induces a conjugate-linear reverse-braided tensor
+involution $T$ on $\mathcal C_{A_H}^0$.
+
+If a parent simple $U$ centralizes $H$ and its stabilizer is cyclic of
+odd order $r>1$, then $T$ is not simple-fixing on the summands induced
+from $U$. For $r=3$ it fixes one resolution and exchanges the other two.
+\end{lemma}
+
+\begin{proof}
+The subcategory on $H$ is symmetric, so reversal equals its original
+braiding. Its split real descent is pointed with real one-dimensional
+fusion spaces. Real fusion bases give an abelian $3$-cocycle with
+coefficients in $\R^\times$ and diagonal trace one. The Eilenberg--Mac
+Lane trace isomorphism, which holds for arbitrary abelian coefficient
+groups \cite[Theorem~2.4]{Braunling}, makes this cocycle an abelian
+coboundary over $\R^\times$. Transport of the graded regular real group
+algebra therefore gives a connected commutative separable algebra
+$A_{H,\R}$ whose complexification is $A_H$. In particular there is a
+coherent algebra isomorphism
+\[
+ u:\Phi(A_H)\longrightarrow A_H,
+ \qquad u\Phi(u)=\mu_{A_H}.
+\]
+Here and below the tensorators and duality comparisons are understood
+when applying $\Phi$ to algebraic structures.
+
+For a local left module $(M,r_M)$, give $\Phi(M)$ the action
+\begin{equation}\label{eq:action}
+ \Phi(r_M)\Phi_2(A_H,M)(u^{-1}\otimes\mathrm{id}).
+\end{equation}
+Braiding reversal takes monodromy to its inverse. Locality
+$r_M\mathsf M=r_M$ is equivalent to $r_M\mathsf M^{-1}=r_M$, so
+\eqref{eq:action} is local. Moreover locality gives
+\begin{equation}\label{eq:right}
+ r_Mc_{M,A_H}=r_Mc_{A_H,M}^{-1}.
+\end{equation}
+Thus reversal preserves the balancing relation for local relative
+tensor products. The parent tensorator descends to
+$T(M)\otimes_{A_H}T(N)\longrightarrow T(M\otimes_{A_H}N)$.
+Its coherence descends by the coequalizer universal property, as does
+$\mu$ using the identity for $u$.
+
+The local braiding $c^A$ is determined by the quotient maps $q$ through
+\begin{equation}\label{eq:quotient}
+ c^A_{M,N}q_{M,N}=q_{N,M}c_{M,N}.
+\end{equation}
+Applying $\Phi$ to \eqref{eq:quotient}, using \eqref{eq:right} to
+identify the transported quotients, replaces the parent braiding by its
+reverse. Epimorphy of $q$ gives the reverse of $c^A$ on the quotient.
+Hence $T$ is reverse-braided, as asserted.
+
+Finally consider $F(U)=A_H\otimes U$. The parent real frame and real
+algebra frame induce a coherent real frame on $F(U)$. Its endomorphism
+algebra is the stabilizer twisted group algebra
+\cite[Proposition~4.7]{FRS}. Its degree-$h$ line is the one-dimensional
+space $\Hom_{\mathcal C}(U,h\otimes U)$ for $h$ in the stabilizer,
+and nonzero homogeneous elements are invertible. The real involution
+preserves each degree: $\Phi$ fixes $h$ and $U$, and $u$ is block diagonal
+on the pairwise nonisomorphic $H$-summands of $A_H$.
+The fixed real algebra $E_\R$ thus has one real line in each degree.
+A nonzero real generator $x$ of the cyclic grading satisfies
+$x^r=a\,\mathrm{id}$ with $a\in\R^\times$. Rescaling by a real
+$r$th root, which exists since $r$ is odd, gives
+\begin{equation}\label{eq:realgroup}
+ E_\R\cong\R[C_r]\cong\R\oplus\C^{(r-1)/2}.
+\end{equation}
+Its complexification has $r$ primitive idempotents, consisting of one
+real idempotent and conjugate pairs. They give distinct multiplicity-one
+simple module summands, so the claimed permutation follows.
+\end{proof}
+
+\begin{remark}
+The last argument applies to every split simple-fixing parent datum and
+coherent real algebra identification satisfying the hypotheses. It does
+not exclude different local data. For example, the full-center quotient
+of $\mathcal C(\slthree,3)$ is the pointed three-fermion category
+\cite[Lemma~2.15]{Edie}. It has a split real fusion presentation,
+although the induced parent datum exchanges two fixed-point resolutions.
+This explains why the preceding lemma alone is not an intrinsic
+counterexample. Its uniform odd-cyclic observation is supporting context
+for Theorem~\ref{thm:main}, not a separate classification assertion.
+\end{remark}
+
+\section{The connected global-form example}\label{sec:example}
+
+We verify all hypotheses of Proposition~\ref{prop:criterion} for
+\eqref{eq:A}. Parent simples have weights $(a,b)=a\Lambda_1+b\Lambda_2$
+with $a,b\ge0$ and $a+b\le12$. Their affine Dynkin triple is
+$(12-a-b,a,b)$, and $J$ acts by cyclic rotation. The local simples are
+parametrized by $J$-orbits of triality-zero weights
+$a+2b\equiv0\pmod3$, together with characters of their stabilizers
+\cite[Lemmas~2.12--2.13]{Edie}. There is exactly one fixed weight,
+\[
+ U=4\Lambda_1+4\Lambda_2,\qquad (12-a-b,a,b)=(4,4,4),
+\]
+which resolves into three simples $U_0,U_1,U_2$.
+For $b=0,\ldots,12$ the numbers of allowed $a$ are
+\[
+ 5,4,3,4,3,2,3,2,1,2,1,0,1.
+\]
+Their sum is $31$. The other $30$ weights give ten free orbits, so
+$\operatorname{rank}(\D)=10+3=13$. Rank multiplies in a Deligne
+product; since $13$ is prime, $\D$ is prime as a nondegenerate braided
+category.
+
+In Edie-Michell's notation the parameters are
+\[
+ r=2,\quad k=12,\quad m=3,\quad
+ m'=\gcd(m,k)=3,\quad m''=m/m'=1.
+\]
+The Tannakian condition $m^2\mid k(r+1)$ holds. Lemma~2.18 and
+Corollary~2.19 of \cite{Edie} give
+\[
+ \Inv(\D)\cong\Z_{(r+1)/(mm'')}=1,
+ \qquad U(\D)=1.
+\]
+Consequently the pivotal structure is unique. Nikshych's
+Corollary~4.8 now gives precisely $c^A$ and $(c^A)^{\rev}$ as the
+braidings on the underlying fusion category.
+
+The object $\Omega=F(\Lambda_1+\Lambda_2)$ is simple local: its parent
+weight has trivial stabilizer and neutral triality. Twists descend
+unchanged \cite[Section~2.2]{Edie}. Its Casimir is $3$, giving conformal
+weight $3/(12+3)=1/5$ and categorical twist
+\[
+ \theta_\Omega=e^{2\pi i/5}\notin\R.
+\]
+This is the categorical twist, not an anomaly-shifted $T$-matrix entry.
+
+Galindo's quantum bar supplies the split simple-fixing parent datum,
+and his Lemma~3.23 supplies the reverse-braided identity for that same
+datum. Lemma~\ref{lem:transport} gives $T$ on $\D$. Induction
+intertwines the parent and local data, so every free-orbit simple is
+fixed by $T$. At $U$ the stabilizer is $C_3$, and
+\eqref{eq:realgroup} shows that $T$ fixes one of $U_0,U_1,U_2$ and
+exchanges the other two. Thus $\pi(T)$ is an isolated transposition on
+the resolved triple and fixes all ten free-orbit labels.
+
+It remains to exclude that permutation from the \emph{whole} braided
+group. Theorem~1.4 of \cite{Edie} gives
+\[
+ \operatorname{EqBr}(\D)\cong D_3,
+\]
+where $D_3$ has order six. Indeed, the parameters $p,t$ in that theorem
+both vanish; level $12$ is not an exceptional case. The exceptional
+full-center $\slthree$ level in the theorem is $9$. The labelled
+generators in \cite[Lemmas~3.8--3.9]{Edie} are
+\begin{equation}\label{eq:dihedral}
+ R:(X,\chi_j)\longmapsto(X,\chi_{j+1}),\qquad
+ C:(X,\chi_j)\longmapsto(X^*,\chi_{-j}).
+\end{equation}
+For a trivial stabilizer the character is unique, so $R$ fixes its
+orbit label. On the fixed triple $R$ is a $3$-cycle and $C$ a reflection.
+The classification ensures that these six realized classes exhaust the
+braided group; this is not just a subgroup calculation.
+
+Every reflection $R^aC$ moves some free-orbit labels. Specifically,
+$3\Lambda_1$ and $3\Lambda_2$ give disjoint affine orbits
+\[
+ \{(9,3,0),(0,9,3),(3,0,9)\},\qquad
+ \{(9,0,3),(3,9,0),(0,3,9)\}.
+\]
+They are neutral and have trivial stabilizer, so their local simples
+are distinct and exchanged by every reflection. Rotations act as the
+identity or a $3$-cycle on the fixed triple. Hence no braided
+autoequivalence has $T$'s isolated transposition.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+The preceding computations verify all four hypotheses of
+Proposition~\ref{prop:criterion}. Applying it proves the assertion,
+including the exclusion of nonunitary real gauges.
+\end{proof}
+
+The category in \eqref{eq:A} is itself a connected Chern--Simons global
+form. Its inherently complex associators therefore answer the broad
+real-$F$ question negatively in that class. Earlier inherently complex
+finite-group examples remain prior, and Galindo's positive theorem for
+the simply connected parent remains intact. No conclusion about the
+Chern--Simons realizability of an unrelated category follows.
+
+\subsection*{Supplement and acknowledgments}
+The supplement \cite{supplement} preserves the frozen proof accounts,
+both complete independent assessments, source-version records, and a
+small exact verification of the orbit and permutation calculations.
+It contains no new symbol dataset. I thank Phoebe for identifying the
+relevant reverse-braiding lemma in Galindo's work, and Cygnus for
+independent whole correctness, prior and significance assessments.
+The results have not been checked by a human.
+
+\begin{thebibliography}{9}
+\bibitem{Braunling}
+O.~Braunling, \emph{Quinn's formula and abelian $3$-cocycles for
+quadratic forms}, arXiv:2005.05243v1 (2020), Theorem~2.4.
+\bibitem{BHPcomplex}
+M.~Buican, P.~Huston and J.~K.~Pachos, \emph{Anyons and Inherently
+Complex $F$-symbols}, arXiv:2607.10181v2 (2026).
+\bibitem{BHPreal}
+M.~Buican, P.~Huston and J.~K.~Pachos, \emph{Reality and Complexity
+of $F$-symbols in $2+1$d Topological Phases}, arXiv:2608.23693v1 (2026).
+\bibitem{Edie}
+C.~Edie-Michell, \emph{Type II quantum subgroups of
+$\mathfrak{sl}_N$. I: Symmetries of local modules},
+arXiv:2102.09065v4 (2022).
+\bibitem{FRS}
+J.~Fuchs, I.~Runkel and C.~Schweigert, \emph{TFT construction of RCFT
+correlators III: Simple currents}, arXiv:hep-th/0403157v2 (2004).
+\bibitem{Galindo}
+C.~Galindo, \emph{On split forms of fusion categories},
+arXiv:2608.23743v1 (2026).
+\bibitem{Nikshych}
+D.~Nikshych, \emph{Classifying braidings on fusion categories},
+arXiv:1801.06125v2 (2018).
+\bibitem{supplement}
+Titania, \emph{Intrinsic complexity of a connected quantum global
+form: source and verification supplement}, shared repository
+\texttt{intrinsic-complexity-global-form},
+\url{https://github.com/numina-agents/intrinsic-complexity-global-form}.
+\end{thebibliography}
+\end{document}

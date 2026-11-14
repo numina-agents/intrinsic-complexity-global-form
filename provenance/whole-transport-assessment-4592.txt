@@ -1,0 +1,137 @@
+ENTIRE REAL-CONDENSATION DIRECTION ASSESSMENT
+Cygnus, 14 November 2026, 09:53 UTC. Assignments4560/4577.
+
+FIXED ACCOUNT AND VERDICT
+I read the ENTIRE four-section proof note real-condensation-transport.txt,
+SHA256 e8d8d09c5eaccd5dd13648f237ec02b9394fb75c7c7ee7d9cefd42b83e3053c4,
+and the complete public claims4549/4570/4579. The note is preserved as
+frozen-4549.txt in this assessment directory.
+
+The ENTIRE transport and odd-cyclic route obstruction in4549 is CORRECT
+with its stated hypotheses. No correction is required. This is NOT an
+intrinsic obstruction to split real forms, a full verdict on4390, or a
+certificate of the later proposed intrinsic-negative theorem4570.
+
+1. REAL REGULAR ALGEBRA
+The category is unitary braided with positive pivotal structure; Phi is a
+coherent simple-fixing conjugate-linear tensor involution admitting real
+frames on every simple, and is assumed to reverse braiding. On an
+isotropic invertible subgroup H, monodromy is trivial and reversal equals
+the existing braiding. Consequently its split real descent is a symmetric
+pointed category. In real fusion bases, its associator and braiding form
+an abelian 3-cocycle valued in R^times with diagonal trace1.
+
+Braunling2005.05243 Theorem2.4 applies to ARBITRARY abelian coefficient
+groups, not only divisible or complex coefficients. The trivial trace
+therefore makes this abelian cocycle a coboundary OVER R^times. The
+ordinary graded regular real group algebra transports to a connected
+commutative separable algebra. Its coherent descent identification
+u:Phi(A_H)->A_H satisfies u Phi(u)=mu_A. No real square root or implicit
+complex trivialization was substituted here. This is a real algebra
+statement, not a claim that all of its complex modules descend simply.
+
+2. LOCALITY AND TENSOR TRANSPORT
+I checked the action formula, including its tensorator and u^(-1).
+Braiding reversal sends the A/M monodromy to its inverse. The locality
+equation r M=r implies r M^(-1)=r, so the transported module is local.
+For local modules the two choices r c_(M,A) and r c_(A,M)^(-1) of right
+action coincide. Thus the same tensorator descends to the relative tensor
+product. Coequalizer naturality gives the monoidal coherence; the real
+algebra identity supplies the square coherence. The result is an actual
+real tensor form of the local category, possibly NONSPLIT.
+
+Galindo's COMPLETE Lemma3.23 proof was read, including its matrix and
+quasi-R-matrix identity and passage through the negligible ideal. This is
+stronger prior than merely Theorem3.7/Remark3.9. My earlier feasibility
+comments based only on the latter omitted this useful input. It supplies
+the required reversal for standard quantum parents and their products.
+For an extra arbitrary pointed factor, the note remains CONDITIONAL on
+such a coherent simple-fixing reverse-braided datum on the whole parent;
+no theorem that every extra pointed factor has it was proved in this note.
+
+3. ODD CYCLIC FIXED-POINT OBSTRUCTION: ALL CLAIMED DATA
+For a parent simple U centralizing H, with S_U=C_r and odd r>1, the
+real frame on U and real algebra frame induce one on F(U)=A_H tensor U.
+FRS Proposition4.7 identifies End_A(F(U)) with the stabilizer twisted
+group algebra, and its proof identifies each degree with Hom(U,h tensor U).
+Every such complex degree is one-dimensional. Phi fixes h and U;
+any algebra identification u is diagonal on the mutually nonisomorphic
+H-summands. Therefore the real involution preserves every degree and
+its fixed part is a real line. Homogeneous nonzero elements are invertible.
+
+A real homogeneous generator x obeys x^r=a with a in R^times. Since r
+is odd, a has a real r-th root. After rescaling, this is exactly R[C_r],
+isomorphic to R plus (r-1)/2 copies of C. Its complexification has r
+one-dimensional characters, one real and (r-1)/2 conjugate pairs.
+The corresponding module summands are distinct and multiplicity one.
+Hence the induced real involution cannot be simple-fixing.
+
+Changing any coherent parent frames or the coherent algebra
+identification preserves the real grading argument. This proves the
+asserted universality over EVERY simple-fixing parent datum satisfying
+the setup, not just the standard quantum bar. It says nothing about a
+parent datum that permutes H or other parent simples, or a local real
+structure not induced from a simple-fixing parent. It does NOT exclude
+all semilinear sections of the local category.
+
+4. CONCRETE TYPE-A FAMILY AND THE SPLIT CONTROL
+For C(sl_3,3m), m>=1, the full center H=C_3 is isotropic. The weight
+U=m Lambda1+m Lambda2 has affine coordinates(m,m,m), fixed by the cyclic
+center rotation. Its central degree m+2m is0 modulo3; hence its three
+resolutions are local. The cyclic obstruction applies at every level3m.
+I checked these uses against Edie-Michell2102.09065v4 Lemmas2.12–2.13.
+
+At m=1, Lemma2.15 identifies the local category with the pointed metric
+group (Z/2)^2 and twists(1,-1,-1,-1). It has a split real fusion form:
+its associator may be trivial and its bicharacter chosen with values+/-1,
+for example c(x,y)=(-1)^(x1*y1+x2*y2+x1*y2). Its diagonal is-1 on
+all three nonzero elements and its monodromy is nondegenerate. Thus the
+route obstruction genuinely does NOT imply an intrinsic counterexample.
+
+5. DIFFERENT PROPOSED ROUTE4570: SUPPORTED, NOT YET A FINAL VERDICT
+I read the COMPLETE Nikshych1801.06125 Corollary4.8 proof and surrounding
+prime-factor setup. If the pointed subcategory is Vec, every braiding is
+nondegenerate, and the only choices are reversals of prime factors. This
+is a classification of braidings on the fixed fusion category, not merely
+a statement about a selected quantum presentation. Prime rank13 permits
+only one nontrivial factor.
+
+The cited level12 inputs do check from existing formulas. There are31
+parent triality-zero weights; the center fixes exactly(4,4,4). The other30
+weights form10 length-three orbits, giving10+3=13 local simples. Theorem1.4
+and Lemma2.18 apply outside their explicitly listed small exceptions;
+for r=2,k=12,m=3 they give no nontrivial invertibles and braided groupD_3.
+I checked the Theorem1.4 statement, Lemmas2.12–2.15/2.18, Corollary2.19,
+and Theorem3.2/Lemma3.8's labelled-action statement and its relevant
+fixed-point argument. Rotations act on the fixed-point characters;
+reflections also conjugate parent orbit labels. The affine triples
+(9,3,0) and(9,0,3) have disjoint cyclic orbits, so this additional action
+is visible on a nonfixed local orbit.
+
+Corollary2.19 gives trivial universal grading; hence the pivotal
+structure is unique. This supports4579's proposed canonical-twist
+transport without an extra positivity/standard-unitarity assumption on
+a hypothetical real datum. The local adjoint twist is exp(2*pi*i/5),
+which is nonreal. Thus the two-braiding classification and the exact
+labelled group give a substantive possible ALL-SECTIONS bridge; they
+are not an appeal to an unknown full tensor-automorphism classification.
+
+I have NOT certified a completed intrinsic counterexample: the full
+semilinear transport/composition proof must be written and checked as a
+whole, with the labelled subgroup versus isolated-transposition comparison
+and all natural-equivalence conventions explicit. I did not audit the
+entire46-page Edie-Michell classification proof or reprove its exceptional
+case analysis. Its theorem and the precise hypotheses are credited prior.
+
+6. DIRECTION RECOMMENDATION
+The original simple-fixing-parent transport route has reached its agreed
+stopping condition, uniformly on its first type-A family. Do not normalize
+that datum further or publish this obstruction alone. However4570 is a
+CONCRETE SUPPORTED alternative to assess within the existing cap: two
+braidings plus an already classified labelled automorphism group could
+exclude every simple-fixing real section at once. I recommend the director
+consider that narrowly defined new route rather than close solely because
+4549 failed. It is stronger feasibility evidence than another level-by-level
+frame search, but remains a proposed proof programme. No fresh derivation,
+automorphism classification or extension of the allocation was undertaken
+by this assessment. Universal positive4390 remains open at this point.

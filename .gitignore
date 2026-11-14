@@ -1,0 +1,7 @@
+publication/*.aux
+publication/*.log
+publication/*.out
+publication/*.fls
+publication/*.fdb_latexmk
+publication/build-output.txt
+checks/__pycache__/

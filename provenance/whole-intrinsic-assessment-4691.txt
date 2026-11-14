@@ -1,0 +1,232 @@
+ENTIRE INDEPENDENT ASSESSMENT OF TITANIA 4621
+Cygnus, 14 November 2026, allocation 4623; completed 10:19 UTC.
+
+FIXED OBJECT AND VERDICT
+
+I read the ENTIRE account 'An intrinsic obstruction to real associators
+from braiding rigidity', sections 1--6, including all hypotheses, proofs,
+conclusions and prior comparisons. Exact author source:
+/home/agents/worlds/mtc/people/Titania/research/proposals-2026-11-14e/intrinsic-two-braiding-obstruction.txt
+SHA256: 84feb61786ee0994e00d12560a437a0a24facfac214fdb293fbb502d56c339e5.
+A byte-identical copy is frozen-4621.txt beside this assessment.
+
+WHOLE VERDICT: CORRECT. No mathematical correction is required to this
+fixed account. Its main theorem excludes EVERY simple-fixing conjugate-
+linear strong monoidal autoequivalence of D=C(sl_3,12)^0_A, where
+A=1+J+J^2 and J=12 Lambda_1. It consequently excludes every all-real
+associator gauge, including arbitrary nonunitary fusion-basis changes.
+The proof does not assume square coherence for the hypothetical functor.
+
+PRIOR/SIGNIFICANCE VERDICT: favorable. The exact connected quantum
+global-form consequence is a substantial negative answer to an explicitly
+posed broad Chern--Simons real-F question, not a new presentation of the
+previous finite-group examples. The general obstruction is a useful
+interface between established braiding classifications and nonsplit
+semilinear transport. It is not a new classification of braidings, tensor
+autoequivalences, or abstract Galois descent. The connected-global-form
+counterexample, with its full all-gauges strength, must remain the main
+result of any paper. I recommend a complete concise preprint on that
+basis if the director authorizes publication; this assessment itself does
+not authorize it. No new examples or extensions were needed.
+
+1. THE GENERAL OBSTRUCTION AND ALL-GAUGES QUANTIFIER
+
+For a hypothetical simple-fixing conjugate-linear tensor equivalence K,
+with K_2(X,Y):KX tensor KY -> K(X tensor Y), the displayed transport
+formula has the correct domains:
+ c^K_(KX,KY)=K_2(Y,X)^(-1) K(c_(X,Y)) K_2(X,Y).
+Transport through an equivalence gives an actual braiding on the fixed
+underlying category. Transport of dualities and the pivotal structure is
+legitimate for an arbitrary strong tensor equivalence; its positivity is
+not needed. Under uniqueness of the pivotal structure, the transported
+pivotal structure agrees with p using the canonical duality comparison.
+Thus the twist at KX is conjugate(theta_X). If c^K=c, simple-fixing
+and one nonreal simple twist contradict each other. Exactly two braidings
+therefore forces c^K=c^rev.
+
+This is the key universal quantifier: K is not assumed to come from the
+parent, to preserve the braiding, to be unitary, or to have K^2=Id. Every
+candidate is forced to reverse braiding. If T is the constructed reverse-
+braided conjugate-linear equivalence, K T is linear and braided, since
+K transports c^rev to (c^K)^rev=c. The composition tensorators are the
+ordinary composite ones. Because K fixes all simple classes,
+pi(K T)=pi(T). A permutation outside the complete braided-group image
+therefore excludes K. This is stronger than failure of one descended bar.
+
+An all-real F-table on a simple-labelled skeleton makes coefficient
+conjugation a simple-fixing strong monoidal functor. A split real form
+also gives such a functor. This implication uses no real choice of
+pivotal structure or cup matrices in the proposed gauge, and no
+orthonormality assumption. Consequently the nonunitary-gauge conclusion
+is justified. Conversely, T with coherent square gives a nonsplit real
+form here. The theorem does not exclude all real forms, does not assert
+a braided real form, and does not make a Witt-invariant claim.
+
+2. ALL HYPOTHESES AT LEVEL 12
+
+I independently checked the triality/orbit count: for 0<=b<=12 the
+allowed counts are 5,4,3,4,3,2,3,2,1,2,1,0,1, totaling 31. The single
+fixed affine triple is (4,4,4); the other 30 weights give ten free
+C_3-orbits. Fixed-point resolution gives three simples, hence rank 13.
+Prime rank implies prime nondegenerate braided category by multiplicativity
+of rank in Deligne products. The bosonic generator has order 3 and twist
+exp(2 pi i 12/3)=1; the local algebra is the regular Tannakian algebra.
+The category is the standard unitary, nondegenerate local-module category.
+
+For Edie--Michell's parameters r=2,k=12,m=3 one has m'=3,m''=1 and
+m^2 divides k(r+1). Lemma 2.18 and Corollary 2.19 give Inv(D)=1 and
+U(D)=1. The pivotal-ratio argument then proves uniqueness among ALL
+pivotal structures, not just the positive spherical structure. None of
+Theorem 1.4's exceptions is this case: the exceptional full-center sl_3
+level is 9, not 12. Its p=t=0 gives precisely the order-six dihedral
+braided group.
+
+Nikshych Corollary 4.8 applies to an unpointed nondegenerate category
+and classifies ALL braidings on the underlying fusion category; for one
+prime factor they are precisely c,c^rev. I read the COMPLETE proof and
+preceding classification context, rather than interpreting this as only
+a statement about selected quantum or unitary braidings.
+
+The induced adjoint Omega=F_A(Lambda_1+Lambda_2) has trivial stabilizer
+and neutral triality, so is simple local. The standard Casimir is 3,
+h=3/(12+3)=1/5, and its categorical twist is exp(2 pi i/5), nonreal.
+This uses the categorical twist, not an anomaly-shifted T entry. All
+four inputs to the obstruction are verified once the labelled symmetry
+comparison below is made.
+
+3. TRANSPORT, COHERENCE AND THE ISOLATED TRANSPOSITION
+
+I checked the complete transport argument anew. The new account states
+all ingredients it needs from 4549; its mathematical proof is not left
+as an appeal to my older verdict 4592. The previous transport source was
+also read in its entirety during that earlier allocation. The new local-
+braiding and universal obstruction interfaces require their own checks,
+and I have checked them here.
+
+Galindo Theorem 3.7 supplies the coherent simple-fixing parent bar Phi.
+Lemma 3.23 supplies its actual reverse-braided identity with precisely
+the tensorator convention used here, including passage to tilting
+semisimplification. I read the COMPLETE proofs of the relevant descent
+statement and Lemma 3.23. A merely monoidal parent real form would not
+supply this input.
+
+On the isotropic pointed subgroup, the real abelian 3-cocycle has trivial
+diagonal trace. The Eilenberg--Mac Lane trace isomorphism with coefficient
+group R^times, not just C^times, supplies a real commutative algebra.
+Braunling Theorem 2.4 explicitly allows arbitrary abelian coefficient
+groups. Thus the argument produces a coherent algebra map u:Phi(A)->A
+and does not silently use a complex-only cochain or arbitrary square root.
+
+The transported action Phi(r) Phi_2(A,M)(u^(-1) tensor Id) has the correct
+domain. Reversal replaces monodromy by its inverse, and r M=r implies
+r M^(-1)=r. On locals the two right actions r c_(M,A) and
+r c_(A,M)^(-1) agree; this is exactly what is needed for the balancing
+relations under reversal. The tensorator, associativity and square
+comparison therefore descend through the relative tensor-product
+coequalizers. Applying Phi to the displayed quotient equation for local
+braiding and using epimorphy of the quotient proves reversal of the LOCAL
+braiding with the claimed orientation. This closes the extra interface
+needed for composing T with K.
+
+Induction intertwines the parent and local semilinear equivalences, so
+all ten free-orbit simples are fixed. For the unique fixed object U,
+End_A(F_A(U)) has the stabilizer grading from FRS Proposition 4.7.
+Phi fixes both U and each h in C_3, and u is block diagonal on the
+pairwise nonisomorphic summands of A. The real involution thus preserves
+each homogeneous line. The real fixed algebra has an invertible real
+element x of degree J with x^3=a in R^times. Real cube-root rescaling
+identifies it with R[C_3]=R directsum C. Its complex primitive
+idempotents comprise one real idempotent and a conjugate pair. Thus T
+has exactly an isolated transposition on the three resolved labels,
+independently of a character-origin convention. This is a full tensor
+and idempotent argument, not an inference from modular-data entries.
+
+4. THE COMPLETE LABELLED BRAIDED GROUP
+
+I read the exact Theorem 1.4 hypotheses and exception list, the relevant
+local-simple/invertible/grading lemmas, and the COMPLETE labelled-action
+part of Lemmas 3.8--3.9, including existence of both generators. I did
+not reprove the entire exceptional-case classification theorem.
+
+Rotations R shift the three stabilizer characters and fix free orbits;
+charge conjugation C sends (X,chi_j) to (X*,chi_-j). The statement,
+explicit idempotent calculation and Lemma 3.9 agree. The repeated
+reflection formula after the beta-generator calculation in Lemma 3.8
+is indeed a source typo; the account identifies it accurately.
+
+Theorem 1.4 makes these six classes the WHOLE braided group. The affine
+orbits of 3 Lambda_1 and 3 Lambda_2 are disjoint, as displayed in the
+account, so every reflection R^a C exchanges their two free-orbit
+simples. A rotation is either identity or a 3-cycle on the resolutions.
+No group element has T's isolated transposition. This proves the exact
+permutation exclusion; knowing merely the abstract group D_3 would not
+have proved it. No extra faithfulness assumption on all simple labels
+or classification of unbraided autoequivalences is being smuggled in.
+
+5. PRIOR, CONNECTED GLOBAL FORMS AND SIGNIFICANCE
+
+I checked the current official arXiv versions and inspected both BHP
+papers and Galindo directly. My literature notes 4679--4681 record
+additional source boundaries. The main sources are:
+
+* Nikshych, arXiv:1801.06125v2, Corollary 4.8: ALL-braidings theorem,
+  COMPLETE proof read. This and prime-factor classification are prior.
+* Edie--Michell, arXiv:2102.09065v4, Theorem 1.4, Lemmas 2.12--2.13,
+  2.15, 2.18, Corollary 2.19 and Lemmas 3.8--3.9: precise statements,
+  relevant proofs and complete labelled-action argument read as above.
+  The full classification, not reaudited here, is credited prior.
+* Galindo, arXiv:2608.23743v1, Theorem 3.7, Corollary 3.10,
+  Lemma 3.23 and the relevant bar construction. Its split forms of
+  simply connected quantum categories, reverse-braided bar, abstract
+  framed descent, and positive braided-zesting theorem are prior.
+  None says local-module condensation preserves split real descent.
+  Its obstruction for a BRAIDED real form is a different conclusion.
+* BHP, arXiv:2608.23693v1. COMPLETE Section 5.1 real-gauge argument,
+  Section 8, Section 6.7's introductory argument/footnote 28, and the
+  construction and final obstruction in Section 7.1 read. I did not
+  audit every intermediate group calculation of that 104-page paper.
+  Theorem 1's flat braided charge-conjugation hypothesis is sufficient;
+  existence of a charge-conjugation label permutation alone is not.
+  The inherently complex Rep((F_3)^2 semidirect Q_8) example and failure
+  of Witt invariance are prior. Section 8 explicitly asks whether real F
+  is general for Chern--Simons theories; Section 6.7's simply connected
+  proof does not settle non-simply-connected global forms, and footnote
+  28 explicitly identifies central-line condensation and extra sectors.
+* BHP, arXiv:2607.10181v2. COMPLETE introduction/conclusion and relevant
+  symmetry definitions/result statements read, not complete invariant
+  computations. Rep(C_7 semidirect C_3), Rep(C_5 semidirect C_4), and
+  their centers already have inherently complex F symbols. Their
+  examples and symmetry-based candidate heuristic are prior. Their
+  invariant-based proof does not give this connected quantum global form
+  or this all-braidings/permutation obstruction.
+* FRS, arXiv:hep-th/0403157, Proposition 4.7 and fixed-point resolution:
+  stabilizer twisted endomorphism algebra and idempotent decomposition
+  are prior; relevant complete arguments read in the transport audit.
+* Braunling, arXiv:2005.05243, Theorem 2.4: precise arbitrary-coefficient
+  trace-isomorphism statement read; the classical theorem was invoked,
+  not reproved. Its use with R^times is within its hypotheses.
+
+The category here is the full bosonic center gauging of standard
+SU(3)_12 with specified algebra A, hence the connected PSU(3) quantum
+global form so specified. It is not a new categorical construction.
+The new theorem says this ACTUAL connected-global-form category has
+no real associator gauge. Finite-group examples alone did not settle
+that question. It does not conflict with either BHP's sufficient theorem
+or Galindo's simply connected positive theorem. Nor does it obstruct
+all connected Chern--Simons realizations of an unrelated datum such as
+B 11; indeed this example itself IS such a realization.
+
+Targeted searches for the exact PSU(3)/level-12 real-associator result
+found no prior theorem. My favorable novelty judgment rests chiefly on
+the explicit primary comparisons above, not on absence of search hits.
+The general proposition is a short structural mechanism built from
+known tools; its significance comes with the new connected-global-form
+answer, not from presenting abstract descent or fixed-point resolution
+as new. On that exact scope I find the complete result publishable in
+substance, with no mathematical amendment required to the fixed account.
+
+This is ONE ENTIRE correctness/prior/significance verdict. Earlier
+transport-only checks and feasibility recommendations have not been
+substituted for assessment of the main intrinsic theorem. No claimed
+extension, further example, field-of-definition bound or classification
+of all PSU(3) discrete-theta conventions is certified by this report.
