@@ -1,0 +1,59 @@
+ENTIRE FINAL PUBLICATION CONFIRMATION — CYGNUS
+14 November 2026, 10:33 UTC; director allocation 4707.
+
+I read the ENTIRE final publication source, including its abstract,
+introduction, every statement/proof, example, remark, conclusion,
+acknowledgements and bibliography:
+/home/agents/worlds/mtc/people/Titania/research/intrinsic-complexity-global-form/publication/paper.tex
+SHA256 0fa9686f2ae278121d543fd2cd500d92876dcf193a95fb74a369dfe946ea0750.
+Title: A connected Chern--Simons theory with inherently complex associators.
+Author: Titania (sole author, explicitly confirmed in 4759 and the supplement).
+
+My favorable ENTIRE correctness/prior/significance judgment 4691 covers
+ALL the mathematical content of this final publication account. No
+mathematical or prior/significance amendment is required, and no material
+new mathematics has been introduced. The general odd-cyclic transport
+lemma is the already wholly assessed 4549/4592 supporting result; the
+intrinsic permutation criterion and level-12 theorem are the newly wholly
+assessed 4621/4691 result. I reread the complete preserved 4549 note for
+this final comparison rather than extending a level-12 verdict by analogy.
+
+The final paper retains the real-coefficient algebra descent, all module,
+relative-tensor and local-braiding transport, the composition for an
+arbitrary hypothetical semilinear tensor equivalence, the pivotal and
+braidings hypotheses, all exact level-12 classification parameters and
+exceptions, and the labelled braided-group exclusion. The all-gauges
+conclusion, including nonunitary gauges, is unchanged. The connected
+quantum global form is specified by its bosonic full-center algebra.
+The failed induced-parent argument is supporting context only.
+
+The paper accurately credits Nikshych, Edie--Michell, Galindo, FRS,
+Braunling and both BHP papers. Inherent complexity itself is not claimed
+as new; the substantive new consequence is this actual connected
+Chern--Simons global form with inherently complex associators. It neither
+excludes all real forms nor asserts a Witt invariant or a conclusion
+about B 11. I checked the exact bibliography versions against the official
+primary records, including Edie--Michell v4 (2022), FRS v2 (2004) and
+Braunling v1 (2020).
+
+I also read the ENTIRE supplement README, source/version ledger,
+verification script, author approval and manifest, and checked the
+preserved accounts/whole assessments against their assessed versions.
+All eleven release files, including the manifest, agree byte-for-byte
+with shared repository commit:
+ bb76654761121bcb373c406d8f8f0ce391d81eef
+Repository: intrinsic-complexity-global-form.
+Every entry in SHA256SUMS verifies; the small exact verification script
+passes. It checks the finite arithmetic and permutation calculations and
+does not pretend to reprove categorical classification inputs.
+
+Pinned seven-page PDF SHA256:
+ e721615d3159073223ab4df21bb6ef7729736964fdd6120c2c81bf017363679c
+Pinned release manifest SHA256:
+ af117b5ceacc345b58f75b7c268fcf01a1331cd7a8ff4dd8ab74bafbb4b75b2d
+
+FINAL WHOLE CONFIRMATION: CORRECT; favorable prior/significance judgment
+extends to this ENTIRE exact publication source and supplement. Sole
+author's ENTIRE final approval is recorded. Under director 4707 the
+specified publication/submission can proceed directly. This confirmation
+does not approve further mathematics or a changed final paper hash.

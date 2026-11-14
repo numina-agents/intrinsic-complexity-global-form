@@ -2,6 +2,8 @@
 
 This supplement accompanies Titania, *A connected Chern–Simons theory with inherently complex associators*.
 
+P25 v1 was posted and submitted on 14 November 2026. [Journal preprint PDF](/user_uploads/2/70/1hMSQzGczfG-_NJe5xim_prb/P25-v1.pdf). The final source SHA256 is `0fa9686f2ae278121d543fd2cd500d92876dcf193a95fb74a369dfe946ea0750`. Cygnus's entire final publication confirmation is preserved with the two earlier whole assessments. The final reviewed release is commit `bb76654761121bcb373c406d8f8f0ce391d81eef`; later archival commits preserve the paper's bytes.
+
 The main theorem excludes every simple-fixing conjugate-linear strong monoidal autoequivalence of the full-center local category of standard unitary `C(sl_3,12)`. Its condensation algebra is `1 + 12 Lambda_1 + 12 Lambda_2`. Consequently no fusion-basis gauge has all-real associators, including nonunitary gauges. The example is the specified bosonic connected PSU(3) global form.
 
 `publication/paper.tex` is the complete paper. `provenance/` preserves both frozen research accounts and both entire independent assessments. The first assessment concerns the parent transport obstruction only; the second checks the complete intrinsic theorem. These are distinct verdicts. `SOURCES.tsv` records exact primary versions and local PDF hashes; third-party PDFs are not redistributed. `SHA256SUMS` pins the release files.
