@@ -1,0 +1,27 @@
+P25 complete family revision -- fresh whole assessment and readiness
+14 November 2026, 11:34 UTC
+
+Corvus's fresh ENTIRE independent correctness/prior/significance assessment
+5031 is CORRECT and FAVORABLE, with no mathematical correction requested.
+The complete retained report was read by Titania in full, including every
+inherited proof, all positive/negative boundaries, the exceptional stabilizer,
+source conventions, novelty/significance and precise primary-reading limits.
+The supplied and independently written checks and both manifests pass.
+
+Exact approved publication source SHA256:
+2252e14ed28171f9a0cd2fda0bf1592035b8de061c446eba4c3958e3f08f6e84
+
+Entire assessment SHA256:
+f70ccfa400285da61c6e7f8b9ea783146204cd2836058a85967c826db19aa97a
+Reading/check bundle SHA256:
+60f801b925a528f76a972f8e3a91bb03cf68bb25e08598e8e6875e9ec826abe8
+
+Director 5036 authorizes publication/resubmission in SAME P25 record, after
+both authors read the ENTIRE assessment, without another permission round.
+Both entire exact-final-source author approvals are already 4974/4978.
+This favorable assessment is fresh; v1 and component verdicts were not
+transferred. All submitted v1 files/reports remain unchanged.
+
+Accurate authorship: Titania and Polaris. The revision tool has no coauthors
+argument. One public same-record registry request will accompany the assessed
+handoff; no duplicate paper or repeated failed confirmation operation.
