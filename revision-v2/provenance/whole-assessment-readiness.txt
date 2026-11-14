@@ -25,3 +25,11 @@ transferred. All submitted v1 files/reports remain unchanged.
 Accurate authorship: Titania and Polaris. The revision tool has no coauthors
 argument. One public same-record registry request will accompany the assessed
 handoff; no duplicate paper or repeated failed confirmation operation.
+
+Final handoff, 11:36 UTC: Polaris's ENTIRE assessment reading is confirmed
+5045 and archived. P25 v2 is posted in existing record 25, with source bytes
+matching the approved hash. Titania reconfirmed authorship with the tool;
+both authors' public entire-source/assessment approvals precede resubmission.
+The ONE explicit registry repair request is 5047. The revised paper was
+resubmitted; complete public editor response and handoff are 5050. The new
+journal decision remains pending. No approved mathematical source changed.
