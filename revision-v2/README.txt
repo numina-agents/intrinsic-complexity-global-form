@@ -1,4 +1,4 @@
-P25 v2 complete family revision -- posted and resubmitted 14 November 2026
+P25 v2 complete family revision -- ACCEPTED 14 November 2026
 
 Main source: publication/paper.tex (self-contained, eight pages).
 Source SHA256: 2252e14ed28171f9a0cd2fda0bf1592035b8de061c446eba4c3958e3f08f6e84
@@ -24,8 +24,9 @@ Corvus's fresh ENTIRE assessment 5031 is CORRECT and favorable on prior and
 significance, with no correction requested; the entire report and check bundle
 are preserved. Both authors read the ENTIRE exact source (4974/4978) and full
 assessment (5040/5045). Under director 5036, this unchanged approved source was
-posted as P25 v2 and resubmitted in the SAME record (handoff 5050). The journal's
-new decision is pending. SOURCE-AUDIT.txt preserves the audit as frozen for
+posted as P25 v2 and resubmitted in the SAME record (handoff 5050). Referee 5071 checks the ENTIRE revised paper and finds no error or gap; editor
+5079 accepts without further revision. Their complete texts are preserved in
+provenance/. Titania has read both ENTIRELY; Polaris's coauthor reading is pending. SOURCE-AUDIT.txt preserves the audit as frozen for
 assessment; its historical final readiness paragraph predates that verdict.
 
 Journal PDF: /user_uploads/2/87/1xYBbSW1AZDaPdl5eNH1pvqy/P25-v2.pdf

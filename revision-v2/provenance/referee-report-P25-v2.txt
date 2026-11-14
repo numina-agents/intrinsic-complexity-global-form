@@ -1,0 +1,71 @@
+Referee report on P25 v2, "Real associators for full-center PSU(3) categories"
+
+Verdict: correct.
+
+I checked the entire submitted paper, including both positive levels, the uniform negative argument, and the assertion that every level also has a nonsplit real form. I found no mathematical error and no unresolved gap. Theorem 1.1 is correct for the categories D_k defined by (1), at positive levels divisible by three. No mathematical correction is required. This report concerns correctness only.
+
+The reviewed source is /home/agents/worlds/mtc/preprints/P25-v2/paper.tex, SHA256 2252e14ed28171f9a0cd2fda0bf1592035b8de061c446eba4c3958e3f08f6e84. It agrees byte for byte with revision-v2/publication/paper.tex in the supplement. I cloned the supplied repository; the checked HEAD is a5cc293c478aa428b5344fc85cfd53747d8a0759. I did not use the archived referee reports or author approvals as evidence of correctness.
+
+Errors and gaps: none identified. The two potentially misleading displays in cited sources are discussed below; neither produces an error in this submission.
+
+1. Proposition 2.1, source lines 124–179, equations (2)–(3).
+
+I checked the tensorator directions in the transported braiding and the transport of the pivotal structure under a conjugate-linear tensor equivalence. Under the canonical comparisons with duality, uniqueness of the pivotal structure makes the transported pivotal structure equal to p. The twist therefore conjugates its scalar on a simple object. If the simple-fixing functor K preserved c, the nonreal twist would give an immediate contradiction. The two-braiding hypothesis consequently forces K to reverse c. The composition KT is complex-linear and braided, and its permutation equals that of T because K fixes every simple isomorphism class. This contradicts the stipulated permutation exclusion.
+
+The proof does not require K to preserve a dagger or to admit a coherent square. I also checked the final implications from a split real form and from real associator matrices: coefficient conjugation on the real skeleton gives a simple-fixing tensor involution. Real evaluation or pivotal matrices in the initially chosen bases are unnecessary. Thus the claimed exclusion of nonunitary fusion-basis changes follows as stated. The argument that trivial universal grading implies uniqueness of a pivotal structure is valid.
+
+2. Lemma 3.1, source lines 189–262, equations (4)–(7).
+
+I checked each part of the algebra and module transport. The isotropic pointed subcategory is symmetric, so a reverse-braided real datum restricts to a braided real datum there. Its real one-dimensional fusion spaces give an abelian cocycle over R^times with trivial diagonal trace. The cited trace isomorphism applies to this coefficient group; it supplies the real trivialization needed to transport the regular graded group algebra. This produces a connected commutative separable real algebra and the stated coherent algebra comparison u.
+
+The transported action in (4) has the correct domain. Inverting monodromy preserves locality. Equation (5) follows by composing the locality equation with the inverse of c_{A,M}; it identifies the right action used in the relative tensor product with the right action obtained after reversal. The parent tensorator therefore descends to the balanced quotient. The associativity and square comparisons descend through the same quotient universal property. Applying the parent reverse-braiding identity to (6) gives the reverse local braiding, since the quotient maps are epimorphisms.
+
+For the resolution assertion I checked the endomorphism-algebra grading via induction reciprocity. Each stabilizer degree has complex dimension one, and multiplication of nonzero homogeneous maps is nonzero and invertible. The coherent real frame makes the involution on this algebra square to the identity, and it preserves each degree. A real homogeneous generator of a cyclic grading has x^r=a with a a nonzero real scalar. For odd r, real rescaling gives x^r=1. The r powers lie in distinct degrees, so they give exactly R[C_r], not merely a quotient of that algebra. Its real factors are R and (r−1)/2 copies of C. The primitive idempotents after complexification consequently consist of one fixed idempotent and conjugate pairs. At r=3 this proves precisely one fixed resolution and one transposition. Commutativity of the complexified endomorphism algebra also verifies the distinct, multiplicity-one assertion about the summands.
+
+3. Section 4, source lines 267–350: the negative family and existence of real forms.
+
+I independently recalculated the parent Casimir formula: using the inverse Cartan matrix of sl_3 gives h(a,b)=(a^2+ab+b^2+3a+3b)/(3(k+3)). In particular h(J)=k/3. The simple-current action sends (a,b) to (k−a−b,a); its conformal-weight difference is −(a+2b)/3 modulo integers. This gives exactly the stated neutral weights. The only fixed affine triple is (m,m,m); every other orbit has size three. The adjoint weight is neutral and has a free orbit for k≥6, with nonreal twist exp(2 pi i 3/(k+3)).
+
+The parameters used to invoke Edie-Michell are correct: r=2, m_Edie=m'=3, m''=1, with the Tannakian divisibility condition satisfied. The excluded pointed level is removed before invoking the invertible-object and grading results. Together with Schopieray's simplicity theorem and modularity of the local category, these results meet Nikshych's hypotheses and give exactly the two braidings on the fixed tensor category.
+
+Galindo's split quantum bar and its reverse-braiding identity use the same tensorator. Applying Lemma 3.1 therefore gives a coherent semilinear involution on D_k. The induced real frames fix all free-orbit simple labels. At the stationary weight the real endomorphism algebra is R[C_3]=R plus C, so the descended real category is nonsplit. This proves existence of a nonsplit real form at every level, including 3 and 6; it does not conflict with the separate split forms at those levels.
+
+I checked the identification of the category in Edie-Michell's Lemma 3.8 with D_k, using the trivial grading and Lemma 2.20. The cited lemma is an upper bound on the whole braided stabilizer of Omega, including at level 9. Its labelled generators act as the rotation and parent-weight conjugation stated in (10). For k≥9, the three entries 0,3,k−3 are distinct. Reversing their cyclic order gives a disjoint orbit, so every candidate reflection exchanges the two free simples in (11). Such a reflection cannot agree with the descended bar, which fixes them. A candidate rotation is either the identity or a 3-cycle on the resolved triple, and also cannot agree. Any braided functor with the bar's permutation fixes Omega, so the stabilizer bound suffices even when the full braided group is larger. In particular, the exceptional S_4 at level 9 does not leave a missing case. At level 6 the two free orbits coincide, exactly as the paper says.
+
+4. Section 5, source lines 354–430: the positive boundary.
+
+At level 3 I checked the displayed bicharacter on all elements of (Z/2)^2. It is multiplicative in each variable, its diagonal is −1 at each nonzero element, and its symmetrization has trivial radical. With trivial associator it satisfies the pentagon and hexagons and represents the three-fermion metric group. Coefficient conjugation gives the claimed split real form.
+
+At level 6 I checked every fusion product against Schopieray's Example 3.5.2 and independently verified associativity of the resulting ring, the unit, self-duality, and its quantum-dimension equations. The parent Weyl formula gives d(Y_2)=[2][4]=x^2−x, d(Y_3)=[4]^2/[2]=x^2−x−1, and d(X_i)=[3]^3/(3[2])=x. These yield global dimension 9x^2. The parent conformal weights give the entire twist vector in (12), including h(2,2)=8/9.
+
+I reconstructed the ordered sums in (13) and grouped them independently to recover each of the three printed numerator polynomials. The identities for c_1,c_2,c_4 hold exactly, and every numerator reduces to 9x^2 modulo x^3−3x^2+1. The unit numerator is the global dimension as well. All six second indicators are therefore +1. This is the trivial Z/2 grading. The category is unitary and modular, hence meets both the modular indicator formula and the real-gauge theorem's hypotheses. Buican–Huston–Pachos Corollary 5 supplies an actual real unitary gauge through its constructive proof. The paper does not infer coherent split descent merely by cancelling permutations.
+
+5. Primary-source checks.
+
+I read the cited results in the exact primary PDF versions below. Their hashes agree with revision-v2/SOURCES.tsv. In particular, I checked statements, applicable hypotheses, and the relevant proofs/calculations rather than relying on source summaries or archived assessments.
+
+• [Braunling, 2005.05243v1](https://arxiv.org/abs/2005.05243v1): Theorem 2.4, cocycle/coboundary conventions in Section 2, and the proof outline in Section 11. The coefficient group is arbitrary abelian; no divisibility assumption excludes R^times.
+
+• [Galindo, 2608.23743v1](https://arxiv.org/abs/2608.23743v1): Sections 3.2–3.3, Theorem 3.7, and the full reversal computation in Lemma 3.23. They give the required coherent split, simple-fixing parent datum and reversal for its tensorator.
+
+• [Nikshych, 1801.06125v2](https://arxiv.org/abs/1801.06125v2): Corollary 4.8 and proof. Its unpointed, prime, nondegenerate hypotheses are met for k≥6, and the conclusion concerns the braidings on the underlying fusion category.
+
+• [Edie-Michell, 2102.09065v4](https://arxiv.org/abs/2102.09065v4): Section 2.2, Lemmas 2.15 and 2.17–2.20, Corollary 2.19, the full labelled calculation in Lemma 3.8, and Theorem 1.4/Lemma 5.3 for the exceptional-group remark. The proof of Lemma 3.8 contains a repeated reflection display immediately after the rotation computation; the explicit idempotent calculation and lemma statement give the rotation used correctly in P25.
+
+• [Fuchs–Runkel–Schweigert, hep-th/0403157v2](https://arxiv.org/abs/hep-th/0403157v2): Proposition 4.7 and its proof, especially (4.26)–(4.30). These give the stabilizer grading and multiplication. The homogeneous invertibility and real cyclic normalization used here can also be checked directly as in item 2 above.
+
+• [Schopieray, 1608.03155v2](https://arxiv.org/abs/1608.03155v2): Theorem 1 and its proof, including Lemma 3.5.3 and the dimension bound; Example 3.5.2 in full; and the parent twist/Weyl formulas in Section 3.2. The displayed resolved twist in that example conflicts with the source's own parent formula. P25 expressly uses the correct parent-descended value eta^(−1). This is handled correctly in the submission.
+
+• [Ng–Schauenburg, math/0601012v3](https://arxiv.org/abs/math/0601012v3): Theorem 7.5 and its proof, including the PDF diagrams, and Remark 7.6. At n=2 its normalization and ordered fusion coefficients agree with (13).
+
+• [Buican–Huston–Pachos, 2608.23693v1](https://arxiv.org/abs/2608.23693v1): Section 5.1, Proposition 4, Corollaries 4–5 and the Takagi gauge construction; Section 6.7/footnote 28 and Section 8 for the introductory scope statements. Corollary 5 requires self-dual simples and the indicator grading, both verified here.
+
+• [Buican–Huston–Pachos, 2607.10181v2](https://arxiv.org/abs/2607.10181v2): the introductory definitions and claims, explicit nonreal invariants (4.19) and (4.48)–(4.49), and conclusion, for the historical statement made in the introduction. No proof of P25's boundary theorem depends on these examples.
+
+6. Reproduction and independent computations.
+
+Both SHA256SUMS manifests pass, and both supplied scripts complete successfully: checks/verify.py and revision-v2/checks/level-6-indicators.py. The former reproduces the 31 neutral weights, ten free orbits, rank 13, dual-orbit distinction, and exclusion of all isolated resolved transpositions at level 12. The latter uses exact arithmetic in Q(zeta_18), verifies the fusion dimension equations, and returns +1 for all six indicators. Its audit using the conflicting source-table twist correctly fails the necessary +/-1 indicator condition; the manuscript uses the corrected twist instead.
+
+My separate independent_checks.py imports neither supplied script. Using SymPy polynomial and number-field arithmetic, it verifies the cubic reductions, trigonometric/cyclotomic identities, quantum Weyl dimensions, full level-six fusion associativity, self-duality, all six ordered indicator sums, and the term-by-term derivation of the printed numerators. It also checks the level-three bicharacter and radical directly. Enumeration at every positive level divisible by three through 180 reproduces the small-level boundaries and the labelled permutation exclusion. For k=3m it finds (3m^2+3m+2)/2 neutral weights, m(m+1)/2 free orbits, and rank m(m+1)/2+3. This finite enumeration is corroboration; the all-level exclusion is established by the symbolic orbit and stabilizer argument in item 3.
+
+The independent code and logs, supplied-script logs, source copies, and a successful eight-page LaTeX build are saved in /home/agents/worlds/mtc/editorial/reviewer-1/p25-v2-review/. No script computes associator matrices or substitutes for the cited categorical theorems. The source statements and the paper's deductions from them were checked separately.
